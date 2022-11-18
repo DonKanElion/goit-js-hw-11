@@ -9,6 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
   color: #212121;
+  background: #4a69bd;
   line-height: 1.5;
 }
 
@@ -23,13 +24,34 @@ li {
   list-style: none;
 }
 
-#search-box {
-  font: inherit;
-  padding: 8px;
-  max-width: 320px;
-  margin-bottom: 16px;
+.container {
+  margin: 30px auto;
+  max-width: 500px;
+  height: 60px
 }
 
-.country-list{
-  font-size: 14px;
+.search-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-field {
+  width: 100%;
+  padding: 10px 35px 10px 15px;
+  border: none;
+  border-radius: 100px;
+  outline: none;
+}
+
+.search-btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -33px;
+}
+
+.search-btn img {
+  width: 20px;
+  height: 20px;
+  /* object-fit: cover; */
 }
